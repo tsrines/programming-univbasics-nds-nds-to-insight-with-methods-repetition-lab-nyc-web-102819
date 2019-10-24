@@ -35,12 +35,15 @@ def list_of_directors(source)
 end
 
 def total_gross(source)
-  dir_hash = directors_totals(souce)
+  dir_total = directors_totals(source)
   dir_name_array = list_of_directors(source)
   index = 0
   total = 0 
   
-  while index < 
+  while index < dir_name_array.length do
+    
+    
+    
   # Write this implementation
   #
   # Should use methods:
