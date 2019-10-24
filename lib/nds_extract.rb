@@ -36,11 +36,13 @@ end
 
 def total_gross(source)
   dir_total = directors_totals(source)
-  dir_name_array = list_of_directors(source)
+  dir_names = list_of_directors(source)
   index = 0
   total = 0 
   
-  while index < dir_name_array.length do
+  while index < dir_names.length do
+    dir_name = dir_names[i]
+    
     
     
     
