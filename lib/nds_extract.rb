@@ -42,10 +42,6 @@ def total_gross(source)
   
   while index < dir_names.length do
     dir_name = dir_names[i]
-    
-    
-    
-    
   # Write this implementation
   #
   # Should use methods:
