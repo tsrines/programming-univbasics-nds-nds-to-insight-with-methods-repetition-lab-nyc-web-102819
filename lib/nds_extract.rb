@@ -35,9 +35,11 @@ def list_of_directors(source)
 end
 
 def total_gross(source)
+  dir_hash = directors_totals(souce)
+  dir_name_array = list_of_directors(source)
   index = 0
   total = 0 
-  grand_total =
+  
   while index < 
   # Write this implementation
   #
