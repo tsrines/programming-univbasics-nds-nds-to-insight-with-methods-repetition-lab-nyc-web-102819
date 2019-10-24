@@ -41,7 +41,7 @@ def total_gross(source)
   total = 0 
   while index < dir_names.length do
     dir_name = dir_names[index]
-    total += dir_total[dir_names]
+    total += dir_total[dir_name]
     index += 1 
   end
 total
