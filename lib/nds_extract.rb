@@ -29,6 +29,7 @@ def list_of_directors(source)
   i = 0 
   while i < source.size do
     directors << source[i][:name]
+    i += 1 
   end
   directors
 end
